@@ -6,7 +6,7 @@ on:
       - develop
 
 jobs:
-  lint:
+  Lint HTML and CSS:
     runs-on: ubuntu-latest
 
     steps:
