@@ -6,7 +6,8 @@ on:
       - develop
 
 jobs:
-  Lint HTML and CSS:
+  lint_html_css:  # ✅ valid job ID (no spaces)
+    name: Lint HTML and CSS  # ✅ shown in GitHub checks
     runs-on: ubuntu-latest
 
     steps:
